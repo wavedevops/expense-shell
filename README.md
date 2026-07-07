@@ -13,13 +13,18 @@ mysql -h <private-ip> -uroot -pExpenseApp@1
 ```
 2. to debug
 
-* Show all databases
-```sh 
+```sql
+-- Show all databases
 SHOW DATABASES;
-```
-* Show all tables
-```sh
+
+-- Select the 'transactions' database
+USE transactions;
+
+-- Show all tables in the selected database
 SHOW TABLES;
+
+-- Display all records from the 'transactions' table
+SELECT * FROM transactions;
 ```
 
 ----
