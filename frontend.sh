@@ -24,10 +24,13 @@ status_check
 head_name Extract the frontend content
 unzip -o /tmp/frontend.zip -d /usr/share/nginx/html
 status_check
+
+
 # -o  override , -d destination
 
 head_name copy expence conf file
-cp -r expense.conf /etc/nginx/default.d/expense.conf
+pwd 
+cp expense.conf /etc/nginx/default.d/expense.conf
 status_check
 
 head_name enable nginx service
