@@ -62,5 +62,5 @@ dnf install mysql -y
 status_check
 
 head_name
-mysql -h 172-31-40-76 -uroot -pExpenseApp@1 < /app/schema/backend.sql 
+mysql -h 172.31.40.76 -uroot -pExpenseApp@1 < /app/schema/backend.sql 
 status_check
