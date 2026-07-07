@@ -14,7 +14,7 @@ dnf module enable nodejs:20 -y
 status_check
 
 
-head_name
+head_name installing nodejs service
 dnf install nodejs -y
 status_check
 
