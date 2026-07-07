@@ -18,7 +18,6 @@ rm -rf /usr/share/nginx/html/*
 status_check
 
 head_name Download the frontend content
-rm -rf /tmp/frontend.zip
 curl -o /tmp/frontend.zip https://expense-artifacts.s3.amazonaws.com/frontend.zip 
 status_check
 
