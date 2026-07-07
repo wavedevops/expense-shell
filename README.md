@@ -4,8 +4,6 @@
 git clone https://github.com/wavedevops/expense-shell.git
 ```
 
-
-
 1. to connect data base
 
 ```sh
