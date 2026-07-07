@@ -1,5 +1,4 @@
 #!/bin/bash
-git pull
 head_name() {
     echo -e "\e[33m>>>>>>>>>> $* <<<<<<<<<<\e[0m"
 }
