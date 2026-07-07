@@ -13,7 +13,7 @@ head_name install Mysql
 dnf install mysql-server -y
 status_check
 
-head_name enable and start Mysqkl server
+head_name enable and start Mysql server
 systemctl enable mysqld
 systemctl start mysqld  
 status_check
