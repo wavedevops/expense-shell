@@ -11,7 +11,7 @@ mysql -h <private-ip> -uroot -pExpenseApp@1
 ```
 2. to debug
 
-```sql
+```md
 -- Show all databases
 SHOW DATABASES;
 
