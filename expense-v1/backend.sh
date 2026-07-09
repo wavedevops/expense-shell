@@ -32,6 +32,7 @@ else
     echo "Creating expense user"
 fi
 status_check
+#Every time The if condition executes based on the command's exit status.
 
 
 head_name We keep application files in one standard location
