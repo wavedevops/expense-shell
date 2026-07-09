@@ -24,7 +24,13 @@ status_check
 
 
 head_name adding expense user
-useradd expense
+
+if id expense &>/dev/null; then
+    echo "User expense already exists... SKIPPING"
+else
+    useradd expense
+    echo "Creating expense user"
+fi
 status_check
 
 

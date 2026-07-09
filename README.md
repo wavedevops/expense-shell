@@ -1,4 +1,4 @@
-# expense-shell
+# Expense-shell
 
 ```sh
 git clone https://github.com/wavedevops/expense-shell.git
