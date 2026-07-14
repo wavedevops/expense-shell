@@ -72,6 +72,6 @@ head_name install mysql clint
 dnf install mysql -y 
 status_check
 
-head_name
+head_name load shema
 mysql -h $MYSQL_ROOT_PASSWORD -uroot -pExpenseApp@1 < /app/schema/backend.sql 
 status_check
